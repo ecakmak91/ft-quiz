@@ -22,7 +22,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 2em;
+    padding: 2em;
     z-index: 4;
     position: relative;
     .logo{

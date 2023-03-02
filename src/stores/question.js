@@ -4,6 +4,24 @@ import { defineStore } from 'pinia'
 export const useQuestionStore = defineStore('question', () => {
   const questionList = ref([
     {
+      question: "Who is the best vue developer in the world?",
+      options: ["Evan You", "Bill Gates?", "Mark (really?)", "Of course Emre Cakmak"],
+      correctAnswer: 3,
+      userAnswer:null
+    },
+    {
+      question: "Is this application working only SSR? (You can check https://vercel.com/ecakmak91/fa-quiz)",
+      options: ["Yes", "No", "Maybe", "IDK"],
+      correctAnswer: 2,
+      userAnswer:null
+    },
+    {
+      question: "Why you should hire me?",
+      options: ["Experience", "Team player", "Easy learner", "All of them"],
+      correctAnswer: 3,
+      userAnswer:null
+    },
+    {
       question: "How many chucks could a woodchuck chuck if a woodchuck could chuck wood?",
       options: ["5", "50", "500", "They don't chuck wood!"],
       correctAnswer: 3,
