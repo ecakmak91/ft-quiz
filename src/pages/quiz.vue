@@ -115,6 +115,11 @@
 
   import { KinesisContainer, KinesisElement} from "vue-kinesis"
 
+  import {useHead} from "@vueuse/head"
+  useHead({
+    title:"Quiz Page | Ft Quiz"
+  })
+
   const {questionList, finishQuiz, resetQuiz} = useQuestionJobs()
   const selectedPages = ref(0)
 

@@ -10,6 +10,10 @@
 </template>
 <script setup>
   import { RouterLink } from 'vue-router'
+  import {useHead} from "@vueuse/head"
+  useHead({
+    title:"Ft Quiz | Emre Çakmak"
+  })
 </script>
 <style lang="scss" scoped>
   video.hero__video__video {
