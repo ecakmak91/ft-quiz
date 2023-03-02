@@ -4,7 +4,7 @@ import { createPinia } from 'pinia'
 import './assets/main.scss'
 
 import "normalize.css"
-//import 'virtual:windi.css'
+// import 'virtual:windi.css'
 import App from './App.vue'
 
 import { createRouter, createWebHistory } from 'vue-router'
