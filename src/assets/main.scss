@@ -1,0 +1,27 @@
+@import './base.scss';
+html{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  height: 100vh;
+}
+#app{
+  height: 100vh;
+}
+a{
+  cursor: pointer;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+}
