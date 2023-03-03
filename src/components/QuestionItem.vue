@@ -134,6 +134,15 @@
   }
 }
 
+@media only screen and (max-width: 1280px) {
+  .question-list[data-v-2b809e9e] {
+    position: relative;
+    padding: 0 3em;
+    .question{
+      height: 55vh;
+    }
+  }
+}
 
 @media only screen and (max-width: 1200px) {
   .question {
